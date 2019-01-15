@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700|Staatliches:100,200,300,400,500,600,700');
+
+/*----------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.logo .name {
+    background: url("images/madlogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    padding-left: 250px;
+    padding-top: 150px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    
+}
+
+h1 {
+    color: #9b0000
+}
+
