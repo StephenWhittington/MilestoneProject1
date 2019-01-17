@@ -2,28 +2,6 @@
 
 /*----------------------------------------Heading*/
 
-header {
-    margin: 0;
+.a {
+    font-family: "Staatliches", sans-serif;
 }
-
-.logo .name {
-    background: url("images/madlogo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
-    padding-left: 250px;
-    padding-top: 150px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    font-family: 'Staatliches', sans-serif;
-    font-weight: 600;
-    font-size: 75px;
-    
-}
-
-h1 {
-    color: #9b0000
-}
-
