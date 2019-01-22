@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700|Staatliches:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Staatliches:100,200,300,400,500,600,700');
+
+body {
+    background-color: #616161
+}
 
 /*----------------------------------------Heading*/
 
@@ -19,7 +23,7 @@
 
 .img-fluid {
    padding: 0px!important;
-   width: 100%;
+   
 }
 
 .title {
@@ -37,4 +41,15 @@
     font-family: "Staatliches", sans-serif;
     font-weight: 600;
     color: #ffffff;
+}
+
+/*----------------------------------------Band Name section*/
+
+.second-heading p {
+    font-family: "Roboto" sans-serif;
+    font-weight: 300;
+}
+
+.jumbotron {
+    background-color: #d32f2f
 }
