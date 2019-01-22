@@ -6,7 +6,6 @@
     font-family: "Staatliches", sans-serif;
     font-weight: 700;
     font-size: 20px;
-    padding-right: 20px;
     
 }
 
@@ -19,6 +18,23 @@
 /*----------------------------------------Picture section*/
 
 .img-fluid {
-   padding: 0px!important; 
-    
+   padding: 0px!important;
+   width: 100%;
+}
+
+.title {
+     position: relative;
+}
+
+.image-title {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%;
+}
+
+.text-center {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
 }
