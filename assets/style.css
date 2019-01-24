@@ -37,7 +37,7 @@ body {
     width: 100%;
 }
 
-.text-center {
+.main-text {
     font-family: "Staatliches", sans-serif;
     font-weight: 600;
     color: #ffffff;
@@ -45,11 +45,25 @@ body {
 
 /*----------------------------------------Band Name section*/
 
-.second-heading p {
-    font-family: "Roboto" sans-serif;
-    font-weight: 300;
+.fullname {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.smalltext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
 }
 
 .jumbotron {
     background-color: #d32f2f
 }
+
+/*----------------------------------------Audio-video section*/
+
+.audio-track {
+    padding-left: 50px;
+}
+
