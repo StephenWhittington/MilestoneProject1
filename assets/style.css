@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Staatliches:100,200,300,400,500,600,700');
 
 body {
-    background-color: #616161
+    background-color: #616161;
+    margin: 0;
+    padding: 0;
 }
 
 /*----------------------------------------Heading*/
@@ -63,7 +65,42 @@ body {
 
 /*----------------------------------------Audio-video section*/
 
-.audio-track {
-    padding-left: 50px;
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------Footer section*/
+
+
+.footer-info {
+    padding-top: 25px;
 }
 
+.footer-contact {
+    padding-top: 25px;
+}
+
+
+.footer-email {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.contact-us {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.follow {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
