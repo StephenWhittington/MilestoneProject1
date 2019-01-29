@@ -60,7 +60,7 @@ body {
 }
 
 .jumbotron {
-    background-color: #d32f2f
+    background-color: #d32f2f;
 }
 
 /*----------------------------------------Audio-video section*/
@@ -119,3 +119,30 @@ body {
     padding-right: 5px;
 }
 
+.fa-facebook {
+  background: #d32f2f;
+  color: #ffffff;
+}
+
+.fa {
+  padding: 20px;
+  width: 70px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #d32f2f;
+  color: #ffffff;
+}
+
+.fa-youtube {
+  background: #d32f2f;
+  color: #ffffff;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
