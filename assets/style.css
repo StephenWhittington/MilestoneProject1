@@ -54,9 +54,16 @@ body {
 }
 
 .smalltext {
-    font-family: "Roboto", sans-serif;
+    font-family: "Staatliches", sans-serif;
     font-weight: 400;
     color: #ffffff;
+    padding-top: 10px;
+}
+
+.bio-text {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    margin-top: 25px;
 }
 
 .jumbotron {
@@ -89,6 +96,7 @@ body {
 
 .footer-info {
     padding-top: 25px;
+    background-color: currentColor;
 }
 
 .footer-contact {
