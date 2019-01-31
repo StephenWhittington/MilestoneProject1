@@ -198,18 +198,32 @@ body {
 .tour-months {
     width: 100%;
     letter-spacing: 14px;
-    padding-top: 50px;
+    padding-top: 40px;
     font-family: "Roboto", sans-serif;
     color: #ffffff;
 }
 
+.listed-dates {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
 
+.june-dates {
+    width: 100%;
+    padding: 0;
+}
 
+.june-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
 
-
-
-
-
+.venue {
+    font-family: "Staatliches", sans-serif;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
 
 
 
