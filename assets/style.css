@@ -201,17 +201,21 @@ body {
     padding-top: 40px;
     font-family: "Roboto", sans-serif;
     color: #ffffff;
+    text-align: center;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 .listed-dates {
     list-style: none;
     text-align: center;
     padding: 0;
+    padding-bottom: 15px;
 }
 
 .june-dates {
     width: 100%;
-    padding: 0;
+    padding-top: 20px;
 }
 
 .june-list {
