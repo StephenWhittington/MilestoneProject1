@@ -215,7 +215,7 @@ body {
 
 .june-dates {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .june-list {
@@ -230,22 +230,49 @@ body {
 }
 
 
+/*----------------------------------------Modal Styling*/
 
+.modal-header {
+    font-family: "Staatliches", sans-serif;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
 
+.buy-tickets {
+    text-align: center;
+    padding-bottom: 50px;
+}
 
+.buy-tickets1 {
+    text-align: center;
+    padding-top: 25px;
+}
 
+.btn-secondary {
+    color: #fff;
+    background-color: #d32f2f;
+    border-color: #6c757d;
+}
 
+.modal-body {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
 
+.modal-footer {
+    display: block;
+    font-family: "Roboto", sans-serif;
+}
 
+.modal-content {
+    background-color: #313131;
+}
 
-
-
-
-
-
-
-
-
+.close {
+    color: #ffffff;
+    font-size: 30px;
+}
 
 /*----------------------------------------Media breakpoints*/
 
