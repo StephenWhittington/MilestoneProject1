@@ -4,7 +4,16 @@ body {
     background-color: #616161;
     margin: 0;
     padding: 0;
+    
 }
+
+.background-image {
+    background-image: url(../assets/images/crowdpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
 
 /*----------------------------------------Heading-Navbar*/
 
@@ -90,6 +99,7 @@ body {
 
 .jumbotron {
     background-color: #d32f2f;
+    margin-bottom: 0;
 }
 
 /*----------------------------------------Audio-video section*/
@@ -273,6 +283,15 @@ body {
     color: #ffffff;
     font-size: 30px;
 }
+
+
+
+
+
+
+
+
+
 
 /*----------------------------------------Media breakpoints*/
 
