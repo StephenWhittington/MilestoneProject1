@@ -121,7 +121,7 @@ body {
 
 .footer-info {
     padding-top: 25px;
-    background-color: currentColor;
+    background-color: #343a40;
 }
 
 .footer-contact {
@@ -162,7 +162,7 @@ body {
 }
 
 .fa-facebook {
-    background: #d32f2f;
+    background: #ff4141;
     color: #ffffff;
 }
 
@@ -176,18 +176,18 @@ body {
 }
 
 .fa-instagram {
-    background: #d32f2f;
+    background: #ff4141;
     color: #ffffff;
 }
 
 
 .fa-twitter {
-    background: #d32f2f;
+    background: #ff4141;
     color: #ffffff;
 }
 
 .fa-youtube {
-    background: #d32f2f;
+    background: #ff4141;
     color: #ffffff;
 }
 
@@ -277,7 +277,7 @@ body {
 }
 
 .modal-content {
-    background-color: #313131;
+    background-color: #343a40;
 }
 
 .close {
@@ -292,10 +292,22 @@ body {
     background-color: #ffffff;
 }
 
+/*----------------------------------------Music Page Section*/
 
+.song {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
 
+.player {
+    
+}
 
-
+.player-style {
+    padding-top: 25px;
+    padding-right: 20px;
+}
 
 
 
