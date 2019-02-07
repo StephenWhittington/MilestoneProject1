@@ -8,10 +8,9 @@ body {
 }
 
 .background-image {
-    background-image: url(../assets/images/crowdpic.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
+    background-image: url(../assets/images/speakerpic.jpg);
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 
@@ -56,7 +55,7 @@ body {
 
 .btn-light {
     color: #ffffff;
-    background-color: #d32f2f;
+    background-color: #ff4141;
     border-color: #ffffff;
 }
 
@@ -98,7 +97,7 @@ body {
 }
 
 .jumbotron {
-    background-color: #d32f2f;
+    background-color: #ff4141;
     margin-bottom: 0;
 }
 
@@ -208,7 +207,7 @@ body {
 .tour-months {
     width: 100%;
     letter-spacing: 14px;
-    padding-top: 40px;
+    padding-top: 20px;
     font-family: "Roboto", sans-serif;
     color: #ffffff;
     text-align: center;
@@ -230,7 +229,9 @@ body {
 
 .june-list {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 600;
+    color: #ff4141;
+    font-size: x-large;
 }
 
 .venue {
@@ -250,17 +251,17 @@ body {
 
 .buy-tickets {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .buy-tickets1 {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .btn-secondary {
     color: #fff;
-    background-color: #d32f2f;
+    background-color: #ff4141;
     border-color: #6c757d;
 }
 
@@ -284,7 +285,12 @@ body {
     font-size: 30px;
 }
 
-
+.block-divider {
+    width: 80%;
+    height: 5px;
+    border: 0;
+    background-color: #ffffff;
+}
 
 
 
