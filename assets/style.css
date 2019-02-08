@@ -263,6 +263,7 @@ body {
     color: #fff;
     background-color: #ff4141;
     border-color: #6c757d;
+    font-family: "Roboto", sans-serif;
 }
 
 .modal-body {
@@ -297,16 +298,41 @@ body {
 .song {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
-    text-align: center;
-}
-
-.player {
     
 }
 
+.player {
+    width: 250px;
+}
+
 .player-style {
-    padding-top: 25px;
+    padding-top: 20px;
     padding-right: 20px;
+    text-align: center;
+}
+
+.music-heading {
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Staatliches", sans-serif;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.text-uppercase {
+    font-weight: 600;
+}
+
+.video1 {
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.video2 {
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 
