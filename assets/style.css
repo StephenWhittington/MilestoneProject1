@@ -4,7 +4,7 @@ body {
     background-color: #616161;
     margin: 0;
     padding: 0;
-    
+
 }
 
 .background-image {
@@ -202,6 +202,7 @@ body {
     width: 100%;
     font-family: "Staatliches", sans-serif;
     color: #ffffff;
+    margin-top: 20px;
 }
 
 .tour-months {
@@ -295,10 +296,17 @@ body {
 
 /*----------------------------------------Music Page Section*/
 
+.Sign-up {
+    width: 100%;
+    font-family: "Staatliches", sans-serif;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
 .song {
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
-    
+    color: #ff4141;
+
 }
 
 .player {
@@ -308,6 +316,7 @@ body {
 .player-style {
     padding-top: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -323,16 +332,18 @@ body {
     font-weight: 600;
 }
 
-.video1 {
-    padding-top: 20px;
+.video {
+    padding-top: 30px;
+    padding-bottom: 20px;
     padding-right: 20px;
     text-align: center;
 }
 
-.video2 {
-    padding-top: 20px;
-    padding-right: 20px;
-    text-align: center;
+.sign-form {
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #ff4141;
 }
 
 
