@@ -296,7 +296,7 @@ body {
 
 /*----------------------------------------Music Page Section*/
 
-.Sign-up {
+.Sign-up-heading {
     width: 100%;
     font-family: "Staatliches", sans-serif;
     color: #ffffff;
@@ -334,7 +334,7 @@ body {
 
 .video {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-right: 20px;
     text-align: center;
 }
@@ -342,9 +342,29 @@ body {
 .sign-form {
     padding: 20px;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #ff4141;
 }
+
+/*----------------------------------------Band page section*/
+
+.band-members {
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Staatliches", sans-serif;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.band-profile-pics {
+    font-family: "Roboto", sans-serif;
+    color: #ff4141;
+}
+
+img .img-circle {
+    border-radius: 45%;
+}
+
 
 
 
@@ -387,4 +407,8 @@ body {
 }
 
 
-@media (min-width: 1200px) {}
+@media (min-width: 992px) and (min-width: 1200px) {
+    .video iframe {
+        height: 50%;
+    }
+}
