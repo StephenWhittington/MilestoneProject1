@@ -359,11 +359,10 @@ body {
 .band-profile-pics {
     font-family: "Roboto", sans-serif;
     color: #ff4141;
+    width: 100%;
 }
 
-img .img-circle {
-    border-radius: 45%;
-}
+
 
 
 
