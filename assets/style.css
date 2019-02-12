@@ -348,6 +348,10 @@ body {
 
 /*----------------------------------------Band page section*/
 
+.rounded {
+    border-radius: 50%!important;
+}
+
 .band-members {
     width: 100%;
     padding-top: 30px;
@@ -359,12 +363,13 @@ body {
 .band-profile-pics {
     font-family: "Roboto", sans-serif;
     color: #ff4141;
-    width: 100%;
+    padding-top: 30px;
 }
 
-
-
-
+.band-profile-pics-2 {
+    font-family: "Roboto", sans-serif;
+    color: #ff4141;
+}
 
 
 /*----------------------------------------Media breakpoints*/
