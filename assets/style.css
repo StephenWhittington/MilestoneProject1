@@ -371,6 +371,22 @@ body {
     color: #ff4141;
 }
 
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper a img {
+    width: 100%;
+}
+
+.wrapper a {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+
 
 /*----------------------------------------Media breakpoints*/
 
