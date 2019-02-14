@@ -374,6 +374,7 @@ body {
 .wrapper {
     width: 1170px;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 .wrapper a img {
@@ -383,7 +384,7 @@ body {
 .wrapper a {
     width: 32%;
     float: left;
-    margin: 3px;
+    margin: 2px;
 }
 
 
@@ -413,6 +414,15 @@ body {
 }
 
 
+@media (min-width: 768px) {
+    .wrapper a {
+        width: 32%;
+        float: left;
+        margin: 4px;
+    }
+}
+
+
 @media (min-width: 992px) {
     .main-text {
         font-size: -webkit-xxx-large;
@@ -424,11 +434,25 @@ body {
         left: 0;
         width: 100%;
     }
+    .wrapper a {
+        width: 32%;
+        float: left;
+        margin: 6px;
+    }
 }
 
 
 @media (min-width: 992px) and (min-width: 1200px) {
     .video iframe {
         height: 50%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .wrapper a {
+        width: 31%;
+        float: left;
+        margin: 13px;
     }
 }
