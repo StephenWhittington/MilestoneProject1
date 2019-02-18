@@ -387,6 +387,25 @@ body {
     margin: 2px;
 }
 
+.profile-icon {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.member-instrument {
+    font-family: "Staatliches", sans-serif;
+    font-size: 25px;
+}
+
+.member-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+
+
 
 
 /*----------------------------------------Media breakpoints*/
