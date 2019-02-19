@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -22,10 +23,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="tour.html">Tour</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="music.html">Music</a>
                     </li>
                     <li class="nav-item">
@@ -41,97 +42,41 @@
 
     <section class="container-fluid">
         <div class="row">
-            <div class="music-heading text-center">
-                <h1 class="text-uppercase">Listen to our Latest Tracks Here!</h1>
+            <div class="book-in-heading text-center">
+                <h1 class="text-uppercase">Want To Hire The Band To Play For You?</h1>
+                <h2 class="text-capitalize">We are now available to play wedding's and birthday parties!</h2>
+            </div>
+            <hr class="block-divider">
+            <div class="book-in-heading2 text-center">
+                <h3 class="text-capitalize">We're available weekend days from 6pm-11pm</h3>
+                <h4 class="text-capitalize">but earlier times can be negotiated send us a message below!</h4>
             </div>
         </div>
-    </section>
-    <hr class="block-divider">
-
-    <section class="container-fluid">
-        <div class="row">
-            <div class="player-style col-sm-12 col-md-6">
-                <h5 class="song">I Burn Your Eyes:</h5>
-                <audio class="player" controls>
-                 <source src="assets/audio/I Burn Your Eyes.mp3" type="audio/mpeg">
-             </audio>
-            </div>
-            <div class="player-style col-sm-12 col-md-6">
-                <h5 class="song">Release:</h5>
-                <audio class="player" controls>
-                 <source src="assets/audio/Release.mp3" type="audio/mpeg">
-             </audio>
-            </div>
-        </div>
-        <div class="row">
-            <div class="player-style col-sm-12 col-md-6">
-                <h5 class="song">Society:</h5>
-                <audio class="player" controls>
-                 <source src="assets/audio/Society.mp3" type="audio/mpeg">
-             </audio>
-            </div>
-            <div class="player-style col-sm-12 col-md-6">
-                <h5 class="song">Battle Kyte:</h5>
-                <audio class="player" controls>
-                 <source src="assets/audio/Battle Kyte.mp3" type="audio/mpeg">
-             </audio>
-            </div>
-        </div>
-
 
     </section>
 
-    <hr class="block-divider">
-    <section class="container-fluid">
+    <section class="container">
         <div class="row">
-            <div class="music-heading text-center">
-                <h1 class="text-uppercase">Live Videos</h1>
-            </div>
-        </div>
-    </section>
-
-    <section class="container-fluid">
-        <div class="row">
-            <div class="video col-sm-12 col-md-6">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/ITgYR63LB20" frameborder="1" allowfullscreen></iframe>
-            </div>
-            <div class="video col-sm-12 col-md-6">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/fuf5JttvMb8" frameborder="1" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-
-    <hr class="block-divider">
-    <div class="container">
-        <div class="row">
-            <div class="sign-up-heading text-center">
-            <h2 class="text-uppercase">Fan of our music?</h2>
-            <h3 class="text-uppercase">Want to hear new material?</h3>
-            <h4 class="text-capitalize">sign up here!</h4>
-            </div>
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="row">
-            <form class="Sign-up-form text-center col-sm-12 col-md-12">
-                <div class="form-group sign-form">
-                    <label for="Email">Email address</label>
-                    <input type="email" class="form-control" id="Email" placeholder="Enter email" required>
-                    <small id="email-info" class="form-text">We'll never share your email with anyone else.</small>
+            <form class="hire-form text-center col-sm-12 col-md-12">
+                <div class="form-group">
+                    <label for="Email">Email Address</label>
+                    <input type="email" class="form-control" id="Email" placeholder="Contact Email" required>
                 </div>
-                <div class="form-group sign-form">
-                    <label for="Enter-Password">Password</label>
-                    <input type="password" class="form-control" id="Enter-Password" placeholder="Password" required>
+                <div class="form-group">
+                    <label for="Select">What day?</label>
+                    <select class="form-control" id="Select">
+                        <option>Saturday</option>
+                        <option>Sunday</option>
+                        </select>
                 </div>
-                <div class="form-group sign-form">
-                    <label for="Repeat-Password">Confirm Password</label>
-                    <input type="password" class="form-control" id="Repeat-Password" placeholder="Retype-Password" required>
+                <div class="form-group">
+                    <label for="textarea">Message</label>
+                    <textarea class="form-control" id="textarea" rows="4" placeholder="Please fill this with your information..." required></textarea>
                 </div>
-                <button type="submit" class="btn btn-secondary">Sign up</button>
+                <button type="submit" class="btn btn-secondary">Send</button>
             </form>
         </div>
-    </div>
+    </section>
 
     <!-- footer with contact email and hover social links -->
     <footer class="container-fluid footer-info">

@@ -404,7 +404,27 @@ body {
     color: #ffffff;
 }
 
+/*----------------------------------------Book-ins Page section*/
 
+.book-in-heading {
+    width: 100%;
+    font-family: "Staatliches", sans-serif;
+    color: #ffffff;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+
+.book-in-heading2 {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.hire-form {
+    font-family: "Staatliches", sans-serif;
+    color: #ff4141;
+}
 
 
 
