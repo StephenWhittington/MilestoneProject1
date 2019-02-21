@@ -27,7 +27,16 @@ body {
     padding-right: 15px;
 }
 
+.nav-icon {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+}
 
+.navbar-collapse {
+    text-align: center;
+}
 
 /*----------------------------------------Home Picture section*/
 
@@ -151,7 +160,7 @@ body {
 }
 
 .list-inline {
-    text-align: -webkit-center;
+    text-align: center;
 }
 
 
@@ -441,6 +450,25 @@ body {
     color: #ff4141;
 }
 
+.book-ins-icon {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.book-in-info {
+    padding-top: 50px;
+}
+
+.book-in-info2 {
+    padding-top: 50px;
+}
+
+.strong-red {
+    color: #ff4141;
+}
+
 
 
 
@@ -460,7 +488,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 992px) {
     .main-text {
-        font-size: -webkit-xxx-large;
+        font-size: 50px;
     }
     .image-title {
         position: absolute;
@@ -482,7 +510,7 @@ body {
 
 @media (min-width: 992px) {
     .main-text {
-        font-size: -webkit-xxx-large;
+        font-size: 50px;
     }
 
     .image-title {
