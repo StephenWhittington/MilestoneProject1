@@ -99,16 +99,10 @@ body {
     text-decoration: overline;
     text-decoration-color: black;
     letter-spacing: 4px;
+    font-size: 50px;
 }
 
 .smalltext {
-    font-family: "Staatliches", sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    padding-top: 10px;
-}
-
-.smalltext2 {
     font-family: "Staatliches", sans-serif;
     font-weight: 400;
     color: #ffffff;
@@ -228,6 +222,14 @@ body {
     font-family: "Staatliches", sans-serif;
     color: #ffffff;
     margin-top: 20px;
+}
+
+.tour-debut {
+    font-size: 35px;
+}
+
+.tour-debut2 {
+    font-size: 50px;
 }
 
 .fullname-tour {
@@ -546,8 +548,17 @@ body {
         margin: 4px;
     }
     .nav-item {
-    padding-right: 15px;
-}
+        padding-right: 15px;
+    }
+    .navbar {
+        font-size: 25px;
+    }
+    .fullname-tour {
+        font-size: 50px;
+    }
+    .smalltext {
+        font-size: 30px;
+    }
 }
 
 
@@ -578,6 +589,21 @@ body {
     .nav-item {
         padding-right: 25px;
     }
+    .logo-short {
+        font-size: 35px;
+    }
+    .fullname-tour {
+        font-size: 60px;
+    }
+    .fullname {
+        font-size: 60px;
+    }
+    .main-text {
+        font-size: 60px;
+    }
+    .smalltext {
+        font-size: 40px;
+    }
 
 }
 
@@ -603,5 +629,14 @@ body {
     }
     .nav-item {
         padding-right: 50px;
+    }
+    .fullname-tour {
+        font-size: 80px;
+    }
+    .fullname {
+        font-size: 70px;
+    }
+    .main-text {
+        font-size: 70px;
     }
 }
