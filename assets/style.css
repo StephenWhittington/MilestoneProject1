@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Staatliches:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Staatliches:100,200,300,400,500,600,700|Metal+Mania:100,200,300,400,500,600,700');
 
 body {
     background-color: #616161;
@@ -23,6 +23,10 @@ body {
 
 }
 
+.nav-link:hover {
+    color: #ff4141!important; 
+}
+
 .nav-item {
     padding-right: 15px;
 }
@@ -32,10 +36,15 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     color: white;
+    font-size: 15px;
 }
 
 .navbar-collapse {
     text-align: center;
+}
+
+.navbar .active a {
+    color: #ff4141!important; 
 }
 
 /*----------------------------------------Home Picture section*/
@@ -76,11 +85,12 @@ body {
 /*----------------------------------------Band Name section*/
 
 .fullname {
-    font-family: "Staatliches", sans-serif;
+    font-family: "Metal Mania", cursive;
     font-weight: 600;
     color: #ffffff;
     text-decoration: overline;
     text-decoration-color: black;
+    letter-spacing: 4px;
 }
 
 .smalltext {
@@ -88,7 +98,6 @@ body {
     font-weight: 400;
     color: #ffffff;
     padding-top: 10px;
-    text-decoration: overline black;
 }
 
 .smalltext2 {
@@ -96,7 +105,6 @@ body {
     font-weight: 400;
     color: #ffffff;
     padding-top: 10px;
-    text-decoration: underline black;
 }
 
 .bio-text {
@@ -212,6 +220,12 @@ body {
     font-family: "Staatliches", sans-serif;
     color: #ffffff;
     margin-top: 20px;
+}
+
+.fullname-tour {
+    font-family: "Metal Mania", cursive;
+    font-weight: 600;
+    letter-spacing: 4px;
 }
 
 .tour-months {
@@ -348,10 +362,8 @@ body {
     text-align: center;
 }
 
-.sign-form {
-    padding: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
+.sign-up-form {
+    font-family: "Staatliches", sans-serif;
     color: #ff4141;
 }
 
@@ -427,12 +439,21 @@ body {
     width: 100%;
     font-family: "Roboto", sans-serif;
     color: #ffffff;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .hire-form {
     font-family: "Staatliches", sans-serif;
     color: #ff4141;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fan-signup-form {
+    font-family: "Staatliches", sans-serif;
+    color: #ff4141;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .why-hire-us {

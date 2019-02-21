@@ -88,6 +88,7 @@
         </div>
     </section>
 
+    <hr class="block-divider">
     <section class="container-fluid">
         <div class="row">
             <div class="book-in-heading2 text-center">
@@ -99,10 +100,12 @@
 
     <section class="container">
         <div class="row">
-            <form class="hire-form text-center col-sm-12 col-md-12">
+            <form class="hire-form text-center col-xs-12 col-md-6">
+                <h3 class=text-uppercase>Book us</h3>
                 <div class="form-group">
                     <label for="Email">Email Address</label>
                     <input type="email" class="form-control" id="Email" placeholder="Contact Email" required>
+                    <small id="email-info" class="form-text">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                     <label for="Select">What day?</label>
@@ -127,6 +130,23 @@
                     <textarea class="form-control" id="textarea" rows="4" placeholder="Please fill this with your information..." required></textarea>
                 </div>
                 <button type="submit" class="btn btn-secondary">Send</button>
+            </form>
+            <form class="fan-signup-form text-center col-xs-12 col-md-6">
+                <h3 class=text-uppercase>Sign up to our site</h3>
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input type="email" class="form-control" id="Email" placeholder="Enter email" required>
+                    <small id="email-info" class="form-text">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="Enter-Password">Password</label>
+                    <input type="password" class="form-control" id="Enter-Password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <label for="Repeat-Password">Confirm Password</label>
+                    <input type="password" class="form-control" id="Repeat-Password" placeholder="Retype-Password" required>
+                </div>
+                <button type="submit" class="btn btn-secondary">Sign up</button>
             </form>
         </div>
     </section>
