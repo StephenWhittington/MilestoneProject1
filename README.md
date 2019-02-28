@@ -1,4 +1,4 @@
-# Milestone Project 1
+# Thrash Band
 
 # by Stephen Whittington
 

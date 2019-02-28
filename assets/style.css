@@ -8,7 +8,7 @@ body {
 }
 
 .background-image {
-    background-image: url(../assets/images/speakerpic.jpg);
+    background-image: url(../assets/images/darkwoodbg.jpg);
     background-attachment: fixed;
     background-size: contain;
 }
@@ -29,6 +29,7 @@ body {
     color: #ffffff;
     font-size: 25px;
     padding-left: 5px;
+    padding-top: 20px;
 }
 
 .nav-link:hover {
@@ -344,7 +345,8 @@ body {
 }
 
 .song {
-    font-family: "Roboto", sans-serif;
+    font-family: "Metal Mania", cursive;
+    font-size: 30px;
     color: #ff4141;
 
 }
@@ -382,6 +384,7 @@ body {
 .sign-up-form {
     font-family: "Staatliches", sans-serif;
     color: #ff4141;
+    font-size: 20px;
 }
 
 /*----------------------------------------Band page section*/
@@ -603,6 +606,17 @@ body {
     }
     .smalltext {
         font-size: 40px;
+    }
+    .responsive-video {
+        height: 0;
+        padding-bottom: 40.20%;
+        position: relative;
+    }
+    .responsive-video iframe {
+        position: absolute;
+        width: 75%;
+        height: 100%;
+        margin-left: 12%;
     }
 
 }
