@@ -69,7 +69,7 @@ body {
 
 .image-title {
     position: absolute;
-    top: 30%;
+    top: 60%;
     left: 0;
     width: 100%;
 }
@@ -517,12 +517,15 @@ body {
 
 /*----------------------------------------Media breakpoints*/
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .image-title {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        width: 100%;
+        display: none;
+    }
+    .nav-icon {
+        display: none;
+    }
+    .navbar-collapse {
+        text-align: left;
     }
 }
 
