@@ -385,6 +385,7 @@ body {
     font-family: "Staatliches", sans-serif;
     color: #ff4141;
     font-size: 20px;
+    padding-top: 20px;
 }
 
 /*----------------------------------------Band page section*/
@@ -467,13 +468,7 @@ body {
     color: #ff4141;
     padding-top: 20px;
     margin-bottom: 20px;
-}
-
-.fan-signup-form {
-    font-family: "Staatliches", sans-serif;
-    color: #ff4141;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .why-hire-us {
@@ -511,9 +506,10 @@ body {
 }
 
 .form-heading-bookin {
-    font-family: "Roboto", sans-serif;
+    font-family: "Staatliches", sans-serif;
     color: #ff4141;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 
@@ -572,7 +568,7 @@ body {
 
     .image-title {
         position: absolute;
-        top: 60%;
+        top: 45%;
         left: 0;
         width: 100%;
     }
@@ -630,6 +626,12 @@ body {
 
 
 @media (min-width: 1200px) {
+    .image-title {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        width: 100%;
+    }
     .wrapper a {
         width: 31%;
         float: left;

@@ -105,18 +105,19 @@
     <section class="container">
         <div class="row">
             <form class="hire-form text-center col-xs-12 col-md-12">
-                <h3 class="form-heading-bookin">Book us</h3>
+                <h1 class="form-heading-bookin">Book us</h1>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter name" required>
+                </div>
                 <div class="form-group">
                     <label for="Email-contact">Email Address</label>
                     <input type="email" class="form-control" id="Email-contact" placeholder="Contact Email" required>
                     <small id="email-info" class="form-text">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
-                    <label for="Select-day">What day?</label>
-                    <select class="form-control" id="Select-day" required>
-                        <option>Saturday</option>
-                        <option>Sunday</option>
-                        </select>
+                    <label for="Select-day">Book a Date</label>
+                    <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="Select-time">What time would you like to book?</label>
