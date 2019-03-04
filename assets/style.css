@@ -413,21 +413,6 @@ body {
     color: #ff4141;
 }
 
-.wrapper {
-    width: 1170px;
-    margin: 0 auto;
-    padding-bottom: 30px;
-}
-
-.wrapper a img {
-    width: 100%;
-}
-
-.wrapper a {
-    width: 32%;
-    float: left;
-    margin: 2px;
-}
 
 .profile-icon {
     text-align: center;
@@ -444,6 +429,13 @@ body {
 .member-paragraph {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
+}
+
+.column-pics {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*----------------------------------------Book-ins Page section*/
@@ -517,6 +509,16 @@ body {
 
 /*----------------------------------------Media breakpoints*/
 
+@media (min-width: 576px) {
+    .column-pics {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
 @media (max-width: 576px) {
     .image-title {
         display: none;
@@ -544,11 +546,7 @@ body {
 
 
 @media (min-width: 768px) {
-    .wrapper a {
-        width: 32%;
-        float: left;
-        margin: 4px;
-    }
+
     .nav-item {
         padding-right: 15px;
     }
@@ -561,6 +559,12 @@ body {
     .smalltext {
         font-size: 30px;
     }
+    .column-pics {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+    }
+
 }
 
 
@@ -574,11 +578,6 @@ body {
         top: 45%;
         left: 0;
         width: 100%;
-    }
-    .wrapper a {
-        width: 32%;
-        float: left;
-        margin: 6px;
     }
     .navbar {
         font-family: "Staatliches", sans-serif;
@@ -617,7 +616,11 @@ body {
         height: 100%;
         margin-left: 12%;
     }
-
+    .column-pics {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+    }
 }
 
 
@@ -634,11 +637,6 @@ body {
         top: 40%;
         left: 0;
         width: 100%;
-    }
-    .wrapper a {
-        width: 31%;
-        float: left;
-        margin: 13px;
     }
     .navbar {
         font-size: 35px;
@@ -657,5 +655,10 @@ body {
     }
     .main-text {
         font-size: 70px;
+    }
+    .column-pics {
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 20px;
     }
 }
