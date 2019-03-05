@@ -661,4 +661,7 @@ body {
         padding-right: 90px;
         padding-top: 20px;
     }
+    .column-pics a img {
+        height: 50%;
+    }
 }
