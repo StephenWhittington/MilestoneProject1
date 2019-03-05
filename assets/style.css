@@ -90,6 +90,50 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../assets/images/crowdpic.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    justify-content: center;
+}
+
+.latest-tour-dates {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+.nearest-date {
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+.june-list-home {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #ff4141;
+    font-size: x-large;
+}
 
 /*----------------------------------------Band Name section*/
 
