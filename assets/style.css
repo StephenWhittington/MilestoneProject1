@@ -662,6 +662,12 @@ body {
     .responsive-video video {
         width: 75%;
     }
+    .book-us-style {
+        width: 50%;
+    }
+    .sign-up-style {
+        width: 70%;
+    }
 }
 
 
@@ -704,5 +710,8 @@ body {
     }
     .column-pics a img {
         height: 50%;
+    }
+    .sign-up-style {
+        width: 50%;
     }
 }
