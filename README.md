@@ -23,4 +23,4 @@ the latest uploads from the band with a sign up form to the site to let them kno
 * As a user/fan, I want to be able to access the bands social pages, so i can communicate by social media.
 * As a user/fan, I want to be able to see information and pictures of the band/members, so i can get to know the band without meating them
 
-[This is a link to my wireframe figma](https://www.figma.com/files/project/1558217/MilestoneProject1)
+[This is a link to my wireframe figma](assets/images/Stephen Wireframe.pdf)
