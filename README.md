@@ -39,9 +39,34 @@ with its simple layout style and colours, The user wants to get as much informat
 
 * Video on Home Page - The user can see the bands latest recording in the studio, and watch in fullscreen if they want to.
 
-* Social Media links/Icons - allows users to easily follow the band, by clicking on the icons in the footer.
+* Social Media links/Icons - Allows users to easily follow the band, by clicking on the icons in the footer.
 
-* Band Information/Photos - allows the user to scroll through images of the band and read about the members.
+* Band Information/Photos - Allows the user to scroll through images of the band and read about the members.
 
 * Added Navigation on Home Page - Allows users to access the tour page and see dates, by clicking on the button link.
 
+## Features left to implement
+
+* Adding a merchandise link with a drop down menu in the navbar.
+
+* Implementing a carousel of live band images on home page maybe 3-5 pictures.
+
+
+# Technologies Used
+
+* [JQuery](https://jquery.com/)
+   
+     * The website uses JQuery The Document Object Model (DOM) to simplify DOM manipulation.
+     
+* [Boostrap v4](https://getbootstrap.com/)
+     
+     * This website uses bootstrap, To add HTML and CSS-based templates for typography,forms,buttons,navigation
+       and other interfance components.
+
+* [Font Awesome](https://fontawesome.com/)
+     
+     * The website uses fontawesome, Because icons are a visual way to help add meaning to elements.
+     
+* [Fancybox3](https://fancyapps.com/fancybox/3/)
+    
+     * Recommended by my Mentor, The website uses fancybox to help images stand out from the rest and save time.
