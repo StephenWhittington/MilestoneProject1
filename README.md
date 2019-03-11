@@ -75,27 +75,44 @@ with its simple layout style and colours, The user wants to get as much informat
 
 ### User story tests completed
  
-* Music Page
+* *Music Page*
 
   1. Go to the "Music" page
   2. Try to play the audio and video links and test their controls
   3. Verify that both audio and video links play with controls
   4. Confirmed that the user can hear and view latest music/videos
 
-* Sign up Form
+* *Sign up Form*
   
   1. On the same page Scroll to the bottom
   2. Try to submit empty form without any information and verify that an error message about required fields appears
   3. Try to submit the form with all inputs filled in and verify that clicking sign up works
   4. Confirmed that the user can create a password to sign up to the site
     
-* Tour page / Buy Tickets
+* *Tour page / Buy Tickets*
   
   1. Click on view dates button on home page and verify that it takes you to the tour page
   2. Go to the "Tour" page
   3. Scroll to view dates of next tour and venues
   4. Click on "buy tickets" enter each form field with information verify that it works
-  5. Confirm that submit and cancel close the modal
-     
-    
-     
+  5. Confirm that the user can submit and cancel the modal
+
+* *Book-ins Page for Hire*
+  
+  1. Go to "Book-ins" page
+  2. Try to sumbit the empty form and verify that an error message about required fields appears
+  3. Try to enter Name,Email,Date,Size,Message (verify that calendar works to pick dates)
+  4. Try to click send with all information entered and confirm that the form works
+
+* *Band Social Footer Icons*
+   
+  1. Scroll to the "Footer" of every page
+  2. Try to click on all of the social media icons and verify that they take the user to the right site
+  3. Confirmed that the links take the user to were they want to go
+
+* *Band Page Pictures / Members*
+  
+  1. Go to the "Band"
+  2. Verify that each band member has a profile picture/Bio on themselves
+  3. Try to click on images of the band playing and verify that it opens a slide to view them
+  4. Confirm that the user can view/read the information they want
