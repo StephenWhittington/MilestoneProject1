@@ -18,11 +18,11 @@ with its simple layout style and colours, The user wants to get as much informat
 
 ### List of user Stories
 
-* As a user/fan, I want to hear and view the latest content, so i can keep up with the bands profile.
+* As a user/fan, I want to hear and view the latest content, so i can be notified of the bands newest releases.
 * As a user/fan, I want to see information on the next tour/event, so i can choose dates and buy tickets.
 * As a customer, I want to be able to fill out a book-ins form, so i can hire the band for a wedding or birthday party.
 * As a user/fan, I want to be able to access the bands social pages, so i can communicate by social media.
-* As a user/fan, I want to be able to see information and pictures of the band/members, so i can get to know the band without meating them.
+* As a user/fan, I want to be able to see information and pictures of the band/members, so i can find out more about them.
 
 [This is a link to my wireframe figma](https://github.com/StephenWhittington/thrashband/blob/master/assets/images/Stephen%20Wireframe.pdf)
 
@@ -58,10 +58,10 @@ with its simple layout style and colours, The user wants to get as much informat
    
      * The website uses JQuery The Document Object Model (DOM) to simplify DOM manipulation.
      
-* [Boostrap v4](https://getbootstrap.com/)
+* [Bootstrap v4](https://getbootstrap.com/)
      
      * This website uses bootstrap, To add HTML and CSS-based templates for typography,forms,buttons,navigation
-       and other interfance components.
+       and other interface components.
 
 * [Font Awesome](https://fontawesome.com/)
      
@@ -70,3 +70,18 @@ with its simple layout style and colours, The user wants to get as much informat
 * [Fancybox3](https://fancyapps.com/fancybox/3/)
     
      * Recommended by my Mentor, The website uses fancybox to help images stand out from the rest and save time.
+
+# Testing
+
+### User story tests completed
+ 
+* Latest Content
+  1. Try to play video on home page
+  2. Verify that it plays and can be viewed
+  3. Go to Music page
+  4. Try to play the audio and video files
+  5. Verify that both audio and video files play.
+
+     
+    
+     
