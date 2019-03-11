@@ -75,13 +75,27 @@ with its simple layout style and colours, The user wants to get as much informat
 
 ### User story tests completed
  
-* Latest Content
-  1. Try to play video on home page
-  2. Verify that it plays and can be viewed
-  3. Go to Music page
-  4. Try to play the audio and video files
-  5. Verify that both audio and video files play.
+* Music Page
 
+  1. Go to the "Music" page
+  2. Try to play the audio and video links and test their controls
+  3. Verify that both audio and video links play with controls
+  4. Confirmed that the user can hear and view latest music/videos
+
+* Sign up Form
+  
+  1. On the same page Scroll to the bottom
+  2. Try to submit empty form without any information and verify that an error message about required fields appears
+  3. Try to submit the form with all inputs filled in and verify that clicking sign up works
+  4. Confirmed that the user can create a password to sign up to the site
+    
+* Tour page / Buy Tickets
+  
+  1. Click on view dates button on home page and verify that it takes you to the tour page
+  2. Go to the "Tour" page
+  3. Scroll to view dates of next tour and venues
+  4. Click on "buy tickets" enter each form field with information verify that it works
+  5. Confirm that submit and cancel close the modal
      
     
      
