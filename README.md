@@ -31,19 +31,19 @@ with its simple layout style and colours, The user wants to get as much informat
 
 ## Existing Features
 
-* Band Logo/Name - Visual representation on the band that is unique, And eye catching to the user.
+* **Band Logo/Name** - Visual representation on the band that is unique, And eye catching to the user.
 
-* Book-ins Form - Allows users to see the bands availability to perform, by having them fill a form in with their information.
+* **Book-ins Form** - Allows users to see the bands availability to perform, by having them fill a form in with their information.
 
-* Collapsing Navbar - Allows the mobile user to access the website pages easily, by clicking the dropdown menu.
+* **Collapsing Navbar** - Allows the mobile user to access the website pages easily, by clicking the dropdown menu.
 
-* Video on Home Page - The user can see the bands latest recording in the studio, and watch in fullscreen if they want to.
+* **Video on Home Page** - The user can see the bands latest recording in the studio, and watch in fullscreen if they want to.
 
-* Social Media links/Icons - Allows users to easily follow the band, by clicking on the icons in the footer.
+* **Social Media links/Icons** - Allows users to easily follow the band, by clicking on the icons in the footer.
 
-* Band Information/Photos - Allows the user to scroll through images of the band and read about the members.
+* **Band Information/Photos** - Allows the user to scroll through images of the band and read about the members.
 
-* Added Navigation on Home Page - Allows users to access the tour page and see dates, by clicking on the button link.
+* **Added Navigation on Home Page** - Allows users to access the tour page and see dates, by clicking on the button link.
 
 ## Features left to implement
 
@@ -56,7 +56,7 @@ with its simple layout style and colours, The user wants to get as much informat
 
 * [JQuery](https://jquery.com/)
    
-     * The website uses JQuery The Document Object Model (DOM) to simplify DOM manipulation.
+     * The website uses JQuery The Document Object Model (DOM) to simplify manipulation.
      
 * [Bootstrap v4](https://getbootstrap.com/)
      
@@ -75,21 +75,21 @@ with its simple layout style and colours, The user wants to get as much informat
 
 ### User story tests completed
  
-* *Music Page*
+* **Music Page**
 
   1. Go to the "Music" page
   2. Try to play the audio and video links and test their controls
   3. Verify that both audio and video links play with controls
   4. Confirmed that the user can hear and view latest music/videos
 
-* *Sign up Form*
+* **Sign up Form**
   
   1. On the same page Scroll to the bottom
   2. Try to submit empty form without any information and verify that an error message about required fields appears
   3. Try to submit the form with all inputs filled in and verify that clicking sign up works
   4. Confirmed that the user can create a password to sign up to the site
     
-* *Tour page / Buy Tickets*
+* **Tour page / Buy Tickets**
   
   1. Click on view dates button on home page and verify that it takes you to the tour page
   2. Go to the "Tour" page
@@ -97,22 +97,36 @@ with its simple layout style and colours, The user wants to get as much informat
   4. Click on "buy tickets" enter each form field with information verify that it works
   5. Confirm that the user can submit and cancel the modal
 
-* *Book-ins Page for Hire*
+* **Book-ins Page for Hire**
   
   1. Go to "Book-ins" page
   2. Try to sumbit the empty form and verify that an error message about required fields appears
   3. Try to enter Name,Email,Date,Size,Message (verify that calendar works to pick dates)
   4. Try to click send with all information entered and confirm that the form works
 
-* *Band Social Footer Icons*
+* **Band Social Footer Icons**
    
   1. Scroll to the "Footer" of every page
   2. Try to click on all of the social media icons and verify that they take the user to the right site
   3. Confirmed that the links take the user to were they want to go
 
-* *Band Page Pictures / Members*
+* **Band Page Pictures / Members**
   
-  1. Go to the "Band"
+  1. Go to the "Band" page
   2. Verify that each band member has a profile picture/Bio on themselves
   3. Try to click on images of the band playing and verify that it opens a slide to view them
   4. Confirm that the user can view/read the information they want
+
+### How my Website works on different browsers and screen sizes
+
+I have tested my project in different screen sizes, and i am happy of how it works from mobile first set up to desktop.
+After finishing most of my project i was advised by my mentor to hide some content on mobile first, So with CSS and media
+queries i found out ways to hide content on mobile but show it on bigger devices. The home page for example shows the text
+with the picture on bigger devices but on smaller it is hidden also my navbar was a little messy so i hid the icons on smaller devices.
+I used a lot of rows and columns to make my webpage as responsive with little effort as possible and i am happy of how it looks.
+I tested my website on chrome and internet explorer and it looks good on both when expanding and closing screen size for each page,
+With Internet explorer i noticed that some things are different, like the audio links on the music page have a black background and
+different style layout to chrome. I also noticed that forms are different when trying to submit without enetering any information. 
+Overall i am happy with how my website looks on mobile,tablet and desktop screen sizes.
+
+

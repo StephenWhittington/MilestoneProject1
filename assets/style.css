@@ -578,6 +578,9 @@ body {
     .navbar-collapse {
         text-align: left;
     }
+    .navbar {
+        font-size: 25px
+    }
 }
 
 
