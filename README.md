@@ -73,7 +73,7 @@ with its simple layout style and colours, The user wants to get as much informat
 
 # Testing
 
-### User story tests completed
+### User Story Tests Completed
  
 * **Music Page**
 
@@ -117,7 +117,7 @@ with its simple layout style and colours, The user wants to get as much informat
   3. Try to click on images of the band playing and verify that it opens a slide to view them
   4. Confirm that the user can view/read the information they want
 
-### How my Website works on different browsers and screen sizes
+### How My Website Works On Different Browsers And Screen Sizes
 
 I have tested my project in different screen sizes, and i am happy of how it works from mobile first set up to desktop.
 After finishing most of my project i was advised by my mentor to hide some content on mobile first, So with CSS and media
@@ -126,7 +126,25 @@ with the picture on bigger devices but on smaller it is hidden also my navbar wa
 I used a lot of rows and columns to make my webpage as responsive with little effort as possible and i am happy of how it looks.
 I tested my website on chrome and internet explorer and it looks good on both when expanding and closing screen size for each page,
 With Internet explorer i noticed that some things are different, like the audio links on the music page have a black background and
-different style layout to chrome. I also noticed that forms are different when trying to submit without enetering any information. 
+different style layout to chrome. I also noticed that forms when entering no information have a different error message to chrome. 
 Overall i am happy with how my website looks on mobile,tablet and desktop screen sizes.
 
+### Bugs And Problems
+
+I discovered a few problems one mainly with my images on the band page, on internet explorer when stretched to full screen the
+height media querie i added for 1200px doesn't seem to work. I found that if i remove the style media querie the pictures look
+a little better, But it works fine on chrome and i was happy with how they looked.
+
+I found one main bug with my page and its my modal on the tour page, i have "required" coded in but it doesn't seem to work
+for the form field when i submit the form. This Bug/Problem i haven't fixed yet but the modal works when selecting the form fields
+and entering the information required, and closes when cancel and buy are selected.
+
+I found another bug with the £ sign, when i enter this into my cloud9 code it has this outcome Â£15 after i save it and view it in the
+browser, But if i change it in the browser with dev tools it doesn't have the same problem. I managed to fix this by research and i needed
+to add <meta charset="UTF-8"> to my head element.
+
+# Deployment 
+
+I deployed my website to github pages, by selecting settings in my repository then scrolling down to GitHub Pages
+selecting source master branch and changed repository name to thrashband.
 
