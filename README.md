@@ -179,6 +179,20 @@ To make sure users have a broad range of accessibility, i have tested my project
 * Mozilla Firefox
 * Internet Explorer
 
+### Testing my code via validation
+
+I ran all my code through both a CSS/HTML5 validator i had a few errors but my page seems to work
+regardless of them. I understand that these errors can be fixed, But do not make my project
+unviewable.
+
+* **style.Css** - I ran my code through (https://jigsaw.w3.org/css-validator/) and had 0 errors.
+* **index.html** - I ran this page through (https://validator.w3.org/) and encounterd 3 errors.
+* **band.html** - I ran this page through (https://validator.w3.org/) and encounterd 13 errors.
+* **book-ins.html** - I ran this page through (https://validator.w3.org/) and encounterd 2 warnings and 3 errors.
+* **music.html** - I ran this page through (https://validator.w3.org/) and encounterd 1 warning and 6 errors.
+* **tour.html** - I ran this page through (https://validator.w3.org/) and encounterd 4 warnings and 46 errors.
+ 
+
 # Deployment 
 
 This project does not require any local deployment
