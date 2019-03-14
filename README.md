@@ -229,7 +229,7 @@ myself.
 **Acknowledgements**
 
 I received inspiration from the project brief itself, being set on a 1960's rockband i decided to add a bit
-of creativity to the scope by basing the proect around one of my real life hobbies and experiences.
+of creativity to the scope by basing the project around one of my real life hobbies and experiences.
 
 I also received inspiration from (https://www.w3schools.com/html/default.asp) which i used to try out different elements
 in my project.
