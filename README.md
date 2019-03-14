@@ -54,6 +54,14 @@ with its simple layout style and colours, The user wants to get as much informat
 
 # Technologies Used
 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    
+     * The website uses semantic markup language as its foundation
+
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+   
+     * The website uses Cascading Style Sheets to implement design and customization. 
+     
 * [JQuery](https://jquery.com/)
    
      * The website uses JQuery The Document Object Model (DOM) to simplify manipulation.
@@ -145,6 +153,12 @@ to add <meta charset="UTF-8"> to my head element.
 
 # Deployment 
 
-I deployed my website to github pages, by selecting settings in my repository then scrolling down to GitHub Pages
-selecting source master branch and changed repository name to thrashband.
+This project does not require any local deployment
 
+My deployment and source code was all done via GitHub, You can find my repository here:
+
+**Repository**:(https://github.com/StephenWhittington/thrashband)
+
+I have uploaded the source code using the master branch to **GitHub Pages.**
+
+I can confirm that there are no differences from the deployed and the development version.
