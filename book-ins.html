@@ -60,7 +60,8 @@
             </div>
         </header>
     </nav>
-
+    
+<main>
     <!-- Section for heading text for band hire -->
     <section class="container-fluid">
         <div class="row">
@@ -85,7 +86,8 @@
                     Not only transport but we are willing to travel any distance required to meet your demands. We also offer a standard
                     price of <strong class="strong-red">£1000</strong> no matter how far we need to travel, M.A.D pride themselves on great
                     entertaining music that will get you moving. So if you are looking for a reliable band that wont let you down,
-                    That has over 10 years experience playing live music please contact us and book us now!.</p>
+                    That has over 10 years experience playing live music please contact us and book us now!.
+                </p>
             </div>
             <div class="text-center book-in-info2 col-xs-4 col-md-6">
                 <h4 class="text-capitalize feature-heading">what music do we play at events?</h4>
@@ -98,7 +100,8 @@
                     song around. So if you have any playlists or recommendation's
                     for your event or that special someone, we are happy to learn
                     anything requested by you!. To give time for the band learn and master 
-                    what you have requested we recommend booking us a month in advance.</p>
+                    what you have requested we recommend booking us a month in advance.
+                </p>
             </div>
         </div>
     </section>
@@ -114,41 +117,44 @@
         </div>
     </section>
 
-    <!-- Section with band hire form and fan sign up form -->
+    <!-- Section with band hire form  -->
     <section class="container book-us-style">
         <div class="row">
             <form class="hire-form text-center col-xs-12 col-md-12">
                 <h1 class="form-heading-bookin">Book us</h1>
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" class="form-control" placeholder="Enter name" required>
+                    <input id="name" type="text" class="form-control" placeholder="Enter name" required>
                 </div>
                 <div class="form-group">
                     <label for="Email-contact">Email Address</label>
                     <input type="email" class="form-control" id="Email-contact" placeholder="Contact Email" required>
-                    <small id="email-info" class="form-text">We'll never share your email with anyone else.</small>
+                    <small id="email-info" class="form-text-small">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                     <label for="Select-day">Book a Date</label>
-                    <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control">
+                    <input id="Select-day" type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label for="Select-time">How many will we be playing to?</label>
-                    <select class="form-control" id="Select-time" required>
-                        <option>100</option>
-                        <option>500</option>
-                        <option>1000</option>
-                        <option>2000</option>
+                    <label for="event-size">How many will we be playing to?</label>
+                    <select required class="form-control" id="event-size">
+                        <option value="">please select a number</option>
+                        <option value="100">100</option>
+                        <option value="500">500</option>
+                        <option value="1000">1000</option>
+                        <option value="2000">2000</option>
+                        <option value="more">more</option>
                         </select>
                 </div>
                 <div class="form-group">
                     <label for="textarea">Message and any Questions?</label>
-                    <textarea class="form-control" id="textarea" rows="4" placeholder="Please fill this with your information..." required></textarea>
+                    <textarea class="form-control" id="textarea" rows="4" placeholder="This field is optional..."></textarea>
                 </div>
                 <button type="submit" class="btn btn-secondary">Send</button>
             </form>
         </div>
     </section>
+</main>
 
     <!-- footer with contact email and hover social links -->
     <footer class="container-fluid footer-info">

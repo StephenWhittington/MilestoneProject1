@@ -62,11 +62,12 @@ body {
 
 .img-fluid {
     padding: 0px!important;
-
+    width: 100%;
 }
 
 .title {
     position: relative;
+    width: 100%;
 }
 
 .image-title {
@@ -84,8 +85,14 @@ body {
 
 .btn-light {
     color: #ffffff;
-    background-color: #ff4141;
+    background-color: #343a40;
     border-color: #ffffff;
+}
+
+.btn-light:hover {
+    color: #ffffff;
+    background-color: #f94141;
+    border-color: #dae0e5;
 }
 
 .button-text {
@@ -438,6 +445,11 @@ body {
     padding-bottom: 20px;
 }
 
+.form-text-small {
+    font-family: "Roboto", sans-serif;
+}
+
+
 /*----------------------------------------Band page section*/
 
 .rounded {
@@ -672,11 +684,6 @@ body {
     .sign-up-style {
         width: 70%;
     }
-}
-
-
-@media (min-width: 992px) and (min-width: 1200px) {
-    
 }
 
 
