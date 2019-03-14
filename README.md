@@ -81,7 +81,8 @@ using this i was able to find the perfect color layout i wanted my website to ha
 
 * [Font Awesome](https://fontawesome.com/)
      
-     * The website uses fontawesome, Because icons are a visual way to help add meaning to elements.
+     * The website uses fontawesome, Because icons are a visual way to help add meaning to elements. And
+       specific font styles add customization to web content.
      
 * [Fancybox3](https://fancyapps.com/fancybox/3/)
     
@@ -163,7 +164,12 @@ and entering the information required, and closes when cancel and buy are select
 I found another bug with the £ sign, when i enter this into my cloud9 code it has this outcome Â£15 after i save it and view it in the
 browser, But if i change it in the browser with dev tools it doesn't have the same problem. 
 
-* I managed to fix this by research and i needed to add <meta charset="UTF-8"> to my head element.
+* I managed to fix this by research and i needed to add meta charset="UTF-8" to my head element.
+
+I also had a porblem with the video file i added to cloud9 when i tried to push it to **GitHub** it told me the file was
+to big and that i could get (https://git-lfs.github.com/) to increase the file upload size. 
+
+* In the end i managed to run my mp4 file via a converter online and squished the file under 100mb.
 
 ### Compatibility
 
@@ -191,8 +197,27 @@ I can confirm that there are no differences from the deployed and the developmen
 
 # Credits
 
+**Content**
+
+Most of the content used on this page is from my own sources, I have used a lot of bootstrap code lines but then altered them
+to make it my own. The CSS styling is also mine i spent most of my time in dev tools testing different styles and code, then
+adding it to my project. I did a lot of research during this project if i ran into any problems i tried my best to fix it
+myself.
+
 **Media**
 
 * The images i used for my site are royalty free and only used for educational purposes only and can be found (https://pixabay.com/).
 
-* The band photos are obtained from my computer/facebook and i have permission to use them.
+* The band photos are obtained from my computer/facebook and i have permission to use them. (https://www.facebook.com/mutuallyassureddestruction/)
+
+* The music files used are obtained from my own band recordings and i have permission to use them.
+
+**Acknowledgements**
+
+I received inspiration from the project brief itself, being set on a 1960's rockband i decided to add a bit
+of creativity to the scope by basing the proect around one of my real life hobbies and experiences.
+
+I also received inspiration from (https://www.w3schools.com/html/default.asp) which i used to try out different elements
+in my project.
+
+A huge thanks to my mentor Ignatius Ukwuoma for his time, suggestions, and constructive feedback for this project!
