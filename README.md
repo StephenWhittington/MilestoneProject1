@@ -7,7 +7,7 @@ tour dates and new band material when available, Also to get the band hired for 
 for the user to navigate their way through a 5 page responsive website that not only looks good on mobile first but desktop as well.
 
 The Web page is mainly aimed at the fan base and shows the bands most recent recordings/Music with a video file and youtube footage of the band playing live and
-recording in the studio, It also shows all dates and venues for the bands upcoming UK tour in june/july 2019. 
+recording in the studio, It also shows information on all dates and venues for the bands upcoming UK tour in june/july 2019. 
 
 ## UX process for my Website
 
@@ -15,6 +15,14 @@ I started with a desktop layout for the website using figma, The site is aimed a
 to each page without any hesitation. The fan wants to be able to see the latest recordings or music the band has made, So by a page link to music they can see
 the latest uploads from the band with a sign up form to the site to let them know of any updates ASAP. This website helps the user achieve what they need
 with its simple layout style and colours, The user wants to get as much information as possible with little effort and this website helps them achieve that goal.
+
+#### Color Scheme
+
+I decided after my wireframe layout that i just wanted a simple colour base that was eye catching my mentor recommended (https://material.io/tools/color/#!/?view.left=0&view.right=0),
+using this i was able to find the perfect color layout i wanted my website to have. I am very happy with the basic color scheme i have selected.
+
+ * Grey <code>#343a40</code>
+ * Red <code>#ff4141</code>
 
 ### List of user Stories
 
@@ -56,7 +64,7 @@ with its simple layout style and colours, The user wants to get as much informat
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
     
-     * The website uses semantic markup language as its foundation
+     * The website uses Semantic Markup Language as its foundation.
 
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
    
@@ -132,24 +140,38 @@ After finishing most of my project i was advised by my mentor to hide some conte
 queries i found out ways to hide content on mobile but show it on bigger devices. The home page for example shows the text
 with the picture on bigger devices but on smaller it is hidden also my navbar was a little messy so i hid the icons on smaller devices.
 I used a lot of rows and columns to make my webpage as responsive with little effort as possible and i am happy of how it looks.
-I tested my website on chrome and internet explorer and it looks good on both when expanding and closing screen size for each page,
+I tested my website on chrome/IE/FireFox and it looks good on both when expanding and closing screen size for each page,
 With Internet explorer i noticed that some things are different, like the audio links on the music page have a black background and
 different style layout to chrome. I also noticed that forms when entering no information have a different error message to chrome. 
 Overall i am happy with how my website looks on mobile,tablet and desktop screen sizes.
 
 ### Bugs And Problems
 
-I discovered a few problems one mainly with my images on the band page, on internet explorer when stretched to full screen the
+I discovered a few problems one mainly with my images on the band page and iframes on the music page, on IE/Firefox when stretched to full screen the
 height media querie i added for 1200px doesn't seem to work. I found that if i remove the style media querie the pictures look
 a little better, But it works fine on chrome and i was happy with how they looked.
+
+* I fixed this by adding container to my section element instead of container-fluid, I removed all of the CSS media queries for
+  height at 1200px.
 
 I found one main bug with my page and its my modal on the tour page, i have "required" coded in but it doesn't seem to work
 for the form field when i submit the form. This Bug/Problem i haven't fixed yet but the modal works when selecting the form fields
 and entering the information required, and closes when cancel and buy are selected.
 
+* I have made changes but not fixed this "required" bug.
+
 I found another bug with the £ sign, when i enter this into my cloud9 code it has this outcome Â£15 after i save it and view it in the
-browser, But if i change it in the browser with dev tools it doesn't have the same problem. I managed to fix this by research and i needed
-to add <meta charset="UTF-8"> to my head element.
+browser, But if i change it in the browser with dev tools it doesn't have the same problem. 
+
+* I managed to fix this by research and i needed to add <meta charset="UTF-8"> to my head element.
+
+### Compatibility
+
+To make sure users have a broad range of accessibility, i have tested my project on 3 major browsers in both desktop and mobile size.
+
+* Chrome
+* Mozilla Firefox
+* Internet Explorer
 
 # Deployment 
 
@@ -157,8 +179,20 @@ This project does not require any local deployment
 
 My deployment and source code was all done via GitHub, You can find my repository here:
 
-**Repository**:(https://github.com/StephenWhittington/thrashband)
+* **Repository**:(https://github.com/StephenWhittington/thrashband)
 
 I have uploaded the source code using the master branch to **GitHub Pages.**
 
+The live version of my site can be found here:
+
+* **GitHub Pages**:(https://stephenwhittington.github.io/thrashband/)
+
 I can confirm that there are no differences from the deployed and the development version.
+
+# Credits
+
+**Media**
+
+* The images i used for my site are royalty free and only used for educational purposes only and can be found (https://pixabay.com/).
+
+* The band photos are obtained from my computer/facebook and i have permission to use them.

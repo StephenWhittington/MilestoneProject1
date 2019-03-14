@@ -386,7 +386,7 @@ body {
 
 /*----------------------------------------Music Page Section*/
 
-.Sign-up-heading {
+.sign-up-heading {
     width: 100%;
     font-family: "Staatliches", sans-serif;
     color: #ffffff;
@@ -435,6 +435,7 @@ body {
     color: #ff4141;
     font-size: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*----------------------------------------Band page section*/
@@ -675,9 +676,7 @@ body {
 
 
 @media (min-width: 992px) and (min-width: 1200px) {
-    .video iframe {
-        height: 50%;
-    }
+    
 }
 
 
@@ -705,14 +704,6 @@ body {
     }
     .main-text {
         font-size: 70px;
-    }
-    .column-pics {
-        padding-left: 90px;
-        padding-right: 90px;
-        padding-top: 20px;
-    }
-    .column-pics a img {
-        height: 50%;
     }
     .sign-up-style {
         width: 50%;
